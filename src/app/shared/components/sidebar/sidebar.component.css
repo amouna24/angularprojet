@@ -9,31 +9,35 @@ background-color: lightgoldenrodyellow;
     
 }
 .side-card {
-display: flex;
-flex-direction: row;
+/* display: flex;
+flex-direction: row; */
 }
 .header {
 
-flex-direction: row;
-top: 33px;
+/* flex-direction: row; */
+/* top: 33px;
 left: 33px;
-height: 40px;
-width: 130px;
+height: 40px; */
+/* width: 130px; */
+margin: 20px 0px;
+
 }
 .logo {
 
 
-height: 33px;
-width: 33px;
-margin:20px;
+height: 3rem;
+
+margin: 0px 20px;
 
 }
 .title {
 
-flex-direction: row;
+/* flex-direction: row; */
+text-align: left;
 }
 .subtitle {
 
-    flex-direction: row;
+    /* flex-direction: row; */
+    text-align: left;
     }
 
