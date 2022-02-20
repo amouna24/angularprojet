@@ -1,0 +1,39 @@
+:host {
+    
+position: absolute;
+top: 0;
+left: 1px;
+height: 768px;
+width: 265px;
+background-color: lightgoldenrodyellow;
+    
+}
+.side-card {
+display: flex;
+flex-direction: row;
+}
+.header {
+
+flex-direction: row;
+top: 33px;
+left: 33px;
+height: 40px;
+width: 130px;
+}
+.logo {
+
+
+height: 33px;
+width: 33px;
+margin:20px;
+
+}
+.title {
+
+flex-direction: row;
+}
+.subtitle {
+
+    flex-direction: row;
+    }
+

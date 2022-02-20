@@ -1,0 +1,19 @@
+<div fxLayout="row" fxFlexFill>
+    <div fxLayout="column" fxFlex="20">
+        <app-sidebar fxFlex></app-sidebar>
+    </div>
+    <div fxLayout="column" fxFlex="50">
+        <div flexLayout="row" fxFlex="10">
+                <app-header></app-header>
+        </div>
+        <div flexLayout="row" fxFlex="90">
+                <router-outlet></router-outlet>
+        </div>
+            
+    </div>
+    <div fxLayout="column" fxFlex="30">
+        <app-rightside fxFlex></app-rightside>
+    </div>
+</div>
+<app-footer flexLayout="row"></app-footer>
+
